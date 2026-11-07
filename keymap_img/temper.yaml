@@ -1,24 +1,24 @@
 layout: {zmk_keyboard: temper}
 layers:
   default:
-  - - Q
-    - W
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - A
+    - S
+    - D
     - F
-    - P
-    - B
+    - G
+    - H
     - J
+    - K
     - L
-    - U
-    - Y
     - {t: '''', s: '"'}
-  - [A, R, S, T, G, M, N, E, I, O]
   - - Z
     - X
     - C
-    - D
     - V
-    - K
-    - H
+    - B
+    - N
+    - M
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
@@ -170,9 +170,9 @@ layers:
   cmd:
   - - ⌘Q
     - ⌘W
-    - F
-    - Gui+P
-    - B
+    - Gui+E
+    - Gui+R
+    - Gui+T
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -191,13 +191,13 @@ layers:
   - - ⌘Z
     - ⌘X
     - ⌘C
-    - D
     - ⌘V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - Gui+B
+    - Gui+N
+    - Gui+M
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
+    - {t: '?', s: '!'}
   - - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
