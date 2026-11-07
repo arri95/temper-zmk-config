@@ -132,7 +132,9 @@ layers:
     - {t: ▽, type: trans}
   fun:
   - - {t: game, h: toggle}
-    - MUTE
+    - 'VOL
+
+      MUTE'
     - VOL DN
     - VOL UP
     - OUT USB
